@@ -24,7 +24,7 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <article className="6u 12u$(xsmall) work-item" key={i}>
+                <div className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
                         href={obj.source}
@@ -38,7 +38,7 @@ class Gallery extends Component {
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
-                </article>
+                </div>
             );
         });
 
