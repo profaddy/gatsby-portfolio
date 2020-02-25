@@ -1,7 +1,8 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/addy.jpg';
+
 
 class Header extends React.Component {
     render() {
@@ -10,7 +11,7 @@ class Header extends React.Component {
                 <div className="inner">
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
                     <h1><strong>I am Adnan</strong>, Web Developer<br />
-                   specialized in React <br /></h1>
+                   specialized in Front-end Development<br /></h1>
                 </div>
                 <Footer />
             </header>
