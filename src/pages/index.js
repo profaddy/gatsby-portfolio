@@ -50,11 +50,11 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>
                         <h2>I love to work on below technologies -</h2> 
-                            {" "}- <span style={{color:"blue"}}>Vanilla javascript</span><br/>
-                            {" "}- <span style={{color:"blue"}}>Reactjs</span><br />
-                            {" "}- <span style={{color:"blue"}}>Jquery</span><br />
-                            {" "}- <span style={{color:"blue"}}>React native</span><br />
-                            {" "}- <span style={{color:"blue"}}>Flutter</span><br />
+                            {" "}- <span style={{color:"#1975d2"}}>Vanilla javascript</span><br/>
+                            {" "}- <span style={{color:"#1975d2"}}>Reactjs</span><br />
+                            {" "}- <span style={{color:"#1975d2"}}>Jquery</span><br />
+                            {" "}- <span style={{color:"#1975d2"}}>React native</span><br />
+                            {" "}- <span style={{color:"#1975d2"}}>Flutter</span><br />
                         </p>
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
